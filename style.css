@@ -12,6 +12,7 @@ html {
   background-image: url('back.JPG'); 
   background-color: black;
   background-size: cover;
+  background-repeat: no-repeat;
   color: floralwhite;
   font-size: 30px;
   scroll-margin-top: 0;
@@ -175,6 +176,37 @@ div > p {
 /* for phones */
 
 @media only screen and (max-width: 600px){
+
+  .index {
+  font-family: "Garamond";
+  font-style: italic;
+  margin-top: -15px;
+  padding-left: 30px;
+  background-image: url('back.JPG'); 
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: floralwhite;
+  font-size: 30px;
+  scroll-margin-top: 0;
+}
+
+.home{
+  border: 2px solid;
+  border-color: navajowhite;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 35%;
+  left: 25%;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+
+}
   
   .pages {
     background-color: #051650;
@@ -223,6 +255,20 @@ div > p {
 
 
 @media only screen and (min-width: 600px) and (max-width: 1000px){
+
+   .index {
+  font-family: "Garamond";
+  font-style: italic;
+  margin-top: -15px;
+  padding-left: 30px;
+  background-image: url('back.JPG'); 
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: floralwhite;
+  font-size: 30px;
+  scroll-margin-top: 0;
+}
   
   .pages {
     background-color: #000030 ;
