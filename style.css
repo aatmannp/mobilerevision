@@ -1,0 +1,270 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.index {
+  font-family: "Garamond";
+  font-style: italic;
+  margin-top: -15px;
+  padding-left: 30px;
+  background-image: url('back.JPG'); 
+  background-color: black;
+  background-size: cover;
+  color: floralwhite;
+  font-size: 30px;
+  scroll-margin-top: 0;
+}
+
+
+.space{
+  scroll-margin-top: inherit;
+  margin-top: 1000px;
+}
+
+.pages{
+  font-family: "Garamond";
+  font-style: italic;
+  padding-left: 30px; 
+  background-color: black;
+  background-size: cover;
+  color: floralwhite;
+  font-size: 30px;
+}
+
+#head{
+  margin-top: 27px;
+  padding-left: -10px;
+  font-family: "Garamond";
+}
+
+.tabs{
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  text-align: right;
+  margin-right: 30px;
+  word-spacing: 15px;
+  margin-top: -100px;
+}
+
+.tabs a:hover {
+  color: cornflowerblue;
+  border: 2px solid;
+  border-color: navajowhite;
+  padding: 5px;
+}
+
+a, a:visited {
+  color: floralwhite;
+  text-decoration: none ;
+}
+
+a:active {
+  color: cornflowerblue;
+  border: 2px solid;
+  border-color: navajowhite;
+}
+
+.home{
+  border: 2px solid;
+  border-color: navajowhite;
+  position: absolute;
+  width: 50%;
+  height: 35%;
+  top: 35%;
+  left: 25%;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+
+div > p {
+  font-size: 16px;
+}
+
+
+.titles{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 100px;
+  font-style:normal;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+}
+
+.gallery{
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 0.5px;
+}
+
+.small{
+  width: 49.5%;
+  height: auto;
+  object-fit: contain;
+  padding: 1px;
+}
+
+
+
+
+.main:hover {
+  background-color: transparent;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.main:hover {
+  transform: scale(1.5);
+}
+
+.small:hover{
+  background-color: transparent;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+
+.small:hover {
+  transform: scale(1.5);
+}
+
+
+.name{
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.descriptions{
+  font-size: 17px;
+  margin-left: 35px;
+  font-family: "Trebuchet MS";
+}
+
+.descriptionsp{
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+}
+
+/* for phones */
+
+@media only screen and (max-width: 600px){
+  
+  .pages {
+    background-color: #051650;
+    color: floralwhite;
+  }
+
+  .descriptionsp{
+    font-size: 8px;
+  }
+
+  .descriptions{
+    font-size: 8px;
+  }
+
+
+  .gallery{
+  margin-top: 25px;
+  margin-left: 45px;
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+.container{
+  width: 75%;
+  margin: 0;
+  overflow: auto;
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.small{
+  width: 48%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+  
+  .pages {
+    background-color: #000030 ;
+    color: floralwhite;
+  }
+
+  .descriptionsp{
+    font-size: 10px;
+  }
+
+  .descriptions{
+    font-size: 10px;
+  }
+
+
+  .gallery{
+  margin-top: 25px;
+  margin-left: 45px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+.container{
+  width: 90%;
+  margin: 0;
+  overflow: auto;
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.small{
+  width: 48%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+}
+
